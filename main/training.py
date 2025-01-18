@@ -379,7 +379,6 @@ class TrainManager:
                 batch = Batch(
                     is_train=True,
                     torch_batch=batch,
-                    txt_pad_index=self.txt_pad_index,
                     sgn_dim=self.feature_size,
                     use_cuda=self.use_cuda,
                     frame_subsampling_ratio=self.frame_subsampling_ratio,
