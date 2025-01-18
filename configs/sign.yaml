@@ -101,12 +101,12 @@ model:
         num_layers: 1
         num_heads: 8
         embeddings:
-            embedding_dim: 304
+            embedding_dim: 512
             scale: false
             dropout: 0.1
             norm_type: batch
             activation_type: softsign
-        hidden_size: 304
+        hidden_size: 512
         ff_size: 1024
         dropout: 0.1
     decoder:
@@ -114,11 +114,11 @@ model:
         num_layers: 1
         num_heads: 8
         embeddings:
-            embedding_dim: 304
+            embedding_dim: 512
             scale: false
             dropout: 0.1
             norm_type: batch
             activation_type: softsign
-        hidden_size: 304
+        hidden_size: 512
         ff_size: 1024
         dropout: 0.1
